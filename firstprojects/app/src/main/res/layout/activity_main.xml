@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C83198EA"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/calulator"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:rotationX="4"
+        android:text="calculator"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/firstnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="first number" />
+
+    <EditText
+        android:id="@+id/secondnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="second number" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:text="calculate"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="111dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="total"
+        android:textSize="40dp" />
+
+</LinearLayout>
